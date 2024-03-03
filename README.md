@@ -373,11 +373,11 @@ ORDER BY percent_hire_change ASC;
 ***
 
 # Power BI
-I exported the fact table, including all the dimension tables of the exploratory data analysis into Power BI for modeling, visualization, and a more detailed analysis.
+I exported the main table, including all the other separate tables I saved from the results of the exploratory data analysis into Power BI for modeling, visualization, and a more detailed analysis.
 
 ## Data Modeling
 
-A relationship was automatically created by Power BI, however, I verified to ensure accuracy. I noticed that star schema (1:*) relationships were created with a connection of the dimension tables to the main table. Below is a preview of the model:
+A relationship was automatically created by Power BI, however, I verified to ensure accuracy. I noticed that star schema (1:*) relationship was created among the tables. Below is a preview of the model:
 
 ![](data_model.jpg)
 
